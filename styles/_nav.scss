@@ -1,0 +1,43 @@
+
+header{
+
+    font-family: 'Heebo', sans-serif;
+    min-height: 100vh;
+    background: url("/images/hero.jpg");
+    background-size: cover;
+}
+/*NAVIGATION BAR*/
+
+
+nav{
+
+    width: 95%;
+    margin: auto;
+    min-height: 10vh;
+
+    @include flex (row, space-around, center);
+}
+
+#logo{
+
+    flex: 1 1 40rem;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.navLinks{
+
+    @include flex (row, space-around, center);
+   
+    
+    li{
+
+        margin-right: 2rem;
+        padding-left: 10rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+}
+
+
